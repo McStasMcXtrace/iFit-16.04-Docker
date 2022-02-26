@@ -12,4 +12,4 @@ The image has been uploaded to dockerhub and can be run using
 docker run -ti -u docker -w /home/docker -v $HOME/iFit-docker:/home/docker/host docker.io/mccode/ubuntu-16.04-ifit /usr/local/bin/ifit
 ```
 or using the ```ifit.sh``` script to enable X11 forwarding. (Warning:
-on macOS you need to open X11 manually before launching ifit)
+on macOS you need to open X11 manually before launching ifit, and the docker fails to run via emulation on M1 processors. )
