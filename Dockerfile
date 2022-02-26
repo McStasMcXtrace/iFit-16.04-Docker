@@ -45,7 +45,7 @@ RUN apt-get update
 RUN apt-get -y install xbase-clients
 RUN apt-get -y install wget libxpm4 libxext6 libxt6 libxmu6 libx11-dev x11proto-print-dev libxext-dev libxau-dev \
     python python-numpy python-scipy python-gtk2 python-matplotlib python-tornado python-dateutil python-pyparsing \
-    python-nose python-flask python-yaml python-h5py
+    python-nose python-flask python-yaml python-h5py python-hdf5storage
 RUN wget http://ftp.dk.debian.org/debian/pool/main/libx/libxp/libxp6_1.0.2-2_amd64.deb
 RUN dpkg -i libxp6_1.0.2-2_amd64.deb
 RUN wget http://ftp.dk.debian.org/debian/pool/main/libx/libxp/libxp-dev_1.0.2-2_amd64.deb
